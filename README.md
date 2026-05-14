@@ -24,7 +24,7 @@ This is exactly the problem the **Kelly criterion** tries to solve.
 
 ### Kelly Criterion
 
-Formulated by John R. Kelly (Bell Labs), the Kelly criterion is a rule for maximizing long-run log wealth across repeated bets.
+Formulated by John L. Kelly (Bell Labs), the Kelly criterion is a rule for maximizing long-run log wealth across repeated bets.
 
 In simpler words, it tells you how much to bet if your goal is not to win one round, but to grow wealth efficiently through compounding.
 
@@ -74,7 +74,7 @@ Thus, under the Kelly formulation, the expected log-growth rate is:
 
 ![captionless image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Z7BzJMvBF9QQHQaRCRP7UQ.png)
 
-To find the optimal betting fraction, we trunk the calculus crank- differentiate, set the derivative equal to zero, and solve for _f_:
+To find the optimal betting fraction, we turn the calculus crank- differentiate, set the derivative equal to zero, and solve for _f_:
 
 ![captionless image](https://miro.medium.com/v2/resize:fit:1060/format:webp/1*uH0IZlKqtQmkvXoEuzwxKg.png)
 
@@ -247,7 +247,7 @@ This plot compares median wealth for raw running Kelly and Bayesian Kelly over 2
 
 The raw running Kelly median wealth collapses to **zero** in **5** rounds. This happens because early overconfidence can lead to betting the full bankroll. A single loss after that wipes the bettor out.
 
-The Bayesian strategy avoids that behavior. It grows more cautiously early on, taking around 70 rounds to break even. After that, it compounds more reliably as evidence for the edge accumulates. Eventually, not only median but also mean Bayesian wealth shows better weath outcomes.
+The Bayesian strategy avoids that behavior. It grows more cautiously early on, taking around 70 rounds to break even. After that, it compounds more reliably as evidence for the edge accumulates. Eventually, not only median but also mean Bayesian wealth shows better  outcomes.
 
 > After 200 rounds, the Bayesian Kelly strategy has a median final wealth of about 47.8 in the simulation. The raw running Kelly median is **zero**.
 
